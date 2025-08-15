@@ -69,5 +69,8 @@ These limitations eventually contributed to the adoption of lifecycle-aware arch
 - Jetpack Compose
 
 
+[Read the detailed article on Medium](https://medium.com/@prateek.dev121/android-mvp-architecture-a4e8aa8e855c)
+
+
 
 
