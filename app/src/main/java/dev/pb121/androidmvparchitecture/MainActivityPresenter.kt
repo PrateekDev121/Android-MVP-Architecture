@@ -1,5 +1,11 @@
 package dev.pb121.androidmvparchitecture
 
+
+
+/**
+ * MainActivityPresenter as the Presenter layer of MVP architecture.
+ * It implements the IMainActivityPresenter , the Presenter layer of MVP architecture.
+ */
 class MainActivityPresenter(
     private val mainActivityView: IMainActivityView
 ) : IMainActivityPresenter {

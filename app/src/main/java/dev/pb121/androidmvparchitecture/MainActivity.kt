@@ -26,7 +26,7 @@ import dev.pb121.androidmvparchitecture.ui.theme.AndroidMVPArchitectureTheme
  */
 class MainActivity : ComponentActivity(), IMainActivityView {
 
-    private val mainActivityPresenter = MainActivityPresenter(
+    private val mainActivityPresenter:IMainActivityPresenter = MainActivityPresenter(
         mainActivityView = this@MainActivity,
     )
     private val counter = mutableIntStateOf(0)
